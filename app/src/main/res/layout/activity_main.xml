@@ -11,7 +11,7 @@
 
 
     <LinearLayout
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:background="#E7A8A8"
         android:orientation="vertical"
         android:layout_width="fill_parent"
@@ -22,76 +22,82 @@
             android:textSize="30dp"
             android:background="#E91E63"
             android:textColor="#222222"
-            android:text="view 1"
+            android:text="1"
             android:layout_width="match_parent"
             android:layout_height="0dp" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:background="#E76D6D"
-            android:textColor="#f22"
-            android:text="view 2"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:background="#8F5555"
-            android:textColor="#974747"
-            android:text="view 2"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:background="#2196F3"
-            android:textColor="#4E3A3A"
-            android:text="view 2"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:text="view B"
-            android:background="#f20"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:text="view C"
-            android:background="#C5877E"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:text="view C"
-            android:background="#673AB7"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent" />
-        <TextView
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="30dp"
-            android:text="view C"
-            android:background="#FFEB3B"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent" />
+        <LinearLayout
+            android:background="#f22"
+            android:layout_weight="3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="2"
+                android:background="#F44336"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#3F51B5"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="3"
+                    android:gravity="center"
+                    android:background="#009688"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:background="#00BCD4"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="4"
+                    android:gravity="center"
+                    android:background="#967C7C"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <TextView
+                    android:textSize="30dp"
+                    android:text="5"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </LinearLayout>
 </LinearLayout>
