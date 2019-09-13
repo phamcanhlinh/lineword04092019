@@ -6,32 +6,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context=".MainActivity" >
-    <TextView
-        android:textColor="#ffff"
-        android:background="#FF7700"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
         android:layout_weight="1"
-        android:gravity="right"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="view1"
-        android:textSize="50sp" />
-    <TextView
-        android:textColor="#ffff"
-        android:background="#00B7FF"
+        android:background="#E7A8A8"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:background="#E91E63"
+            android:textColor="#222222"
+            android:text="view 1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:background="#E76D6D"
+            android:textColor="#f22"
+            android:text="view 2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:background="#8F5555"
+            android:textColor="#974747"
+            android:text="view 2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:background="#2196F3"
+            android:textColor="#4E3A3A"
+            android:text="view 2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="view2"
-        android:textSize="50sp" />
-    <TextView
-        android:textColor="#ffff"
-        android:background="#776555"
-        android:layout_weight="3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="view3"
-        android:textSize="50sp" />
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="view B"
+            android:background="#f20"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="view C"
+            android:background="#C5877E"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="view C"
+            android:background="#673AB7"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="view C"
+            android:background="#FFEB3B"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
 </LinearLayout>
 
